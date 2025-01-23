@@ -1,0 +1,61 @@
+
+  
+.nav-link{
+    color: #fff;
+}
+li.nav-item {
+    margin: 0px 10px;
+}
+a.nav-link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #8750f7;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .nav-link:hover {
+    color: #fff;
+}
+#connect-btn{
+    margin: 0px 30px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    background: linear-gradient(260deg, var(--theme-primary) 0%, var(--theme-secondary) 100%);
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+#connect-btn:hover {
+    transform: scale(1.1);
+}
+
+
+#offcanvasNavbar{
+    background: #0f0715;
+}
+.btn-close {
+    filter: invert(1); /* Inverts color to white */
+    opacity: 1; /* Makes it fully visible */
+  }
+  .navbar-toggler-icon{
+    filter: invert(1); /* Inverts color to white */
+    opacity: 1; /* Makes it fully visible */
+  }
+  

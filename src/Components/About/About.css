@@ -1,0 +1,70 @@
+
+.about-title h2{
+    font-weight: 600;
+    font-size: 45px;
+    background: var(--tj-theme-primary);
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.workexperiance{
+    font-weight: 700; 
+    /* justify-content: space-around; */
+    display: flex;
+    align-items: center;
+}
+.date{
+    width: 30%;
+    font-size: 30px;
+}
+.logo{
+    width: 25%;
+}
+.logo img {
+    width: 60%;
+}
+.position{
+    width: 25%;
+    font-size: 22px;
+}
+.position span{
+    font-weight: 400;
+    font-size: 18px;
+}
+.link a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+i#rightarrow {
+    padding-right: 20px;
+}
+.companyname:hover {
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--theme-third) 100%);
+}
+.companyname{
+    border-bottom: 1px solid #2f1d53;
+   
+}
+@media screen and (max-width:820px) {
+    .date {
+        width: 25%;
+        font-size: 20px;
+    }
+    .position {
+        width: 25%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:426px) {
+    .workexperiance{
+    flex-direction: column;
+    }
+    .logo, .position, .date{
+        padding: 10px 0px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+

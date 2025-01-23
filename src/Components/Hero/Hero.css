@@ -1,0 +1,59 @@
+
+.hero{
+    padding: 100px 20px 50px;
+}
+
+.hero-sub{
+    font-weight: 600;
+    font-size: 65px;
+    background: var(--tj-theme-primary);
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.download-btn{
+    border: 1px solid #8750f7;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #8750f7;
+}
+.download-btn:hover{
+    color: #fff;
+    background-color: #8750f7;
+}
+
+.ul-reset {
+    list-style: none;  /* Remove bullet points */
+    margin: 0;         /* Remove default margin */
+    display: flex;     /* Display items in a row */
+    gap: 15px;         /* Add space between icons */
+}
+
+.ul-reset li {
+    display: inline-block;  /* Ensure list items align in a row */
+}
+
+.ul-reset li a {
+    font-size: 20px;   /* Adjust icon size */
+    color: #8750f7;       /* Adjust icon color */
+    transition: color 0.3s ease-in-out;
+    text-decoration: none; /* Remove underline */
+    border-radius: 30px;
+    padding: 10px 14px;
+    border: 1px solid #8750f7;
+}
+
+.ul-reset li a:hover {
+    color: #fff; 
+    background: #8750f7;
+   
+}
+
+@media screen and (max-width:426px){
+    .hero-sub{
+        font-size: 45px;  
+    }
+}
+

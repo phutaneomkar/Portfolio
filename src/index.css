@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background: #0f0715;
+  color: #fff;
+  font-family: 'outfit';
+}
+:root {
+  --theme-primary: #0f0715;  /* Example primary color */
+  --tj-white: #fff;  /* Example primary color */
+  --tj-theme-primary: #8750f7; 
+  --theme-secondary: #8750f7; /* Example secondary color */
+  --theme-third:#2f1d53;
+}
+p{
+  font-size: 20px;
+}
