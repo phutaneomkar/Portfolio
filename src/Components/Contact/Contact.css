@@ -1,0 +1,58 @@
+.contact-form-box{
+     background: #140c1c;
+     border-radius: 30px;
+}
+.form_group input {
+    
+    width: 100%;
+    line-height: 1;
+    color: var(--tj-white);
+    padding: 14px 20px;
+    border-radius: 8px;
+    transition: all 0.3s 0s ease-out;
+    outline: none;
+    height: auto;
+    background: #050709;
+    border: 1px solid #22272c;
+}
+.form_group textarea{
+    height: 100px;
+    width: 100%;
+    line-height: 1;
+    color: var(--tj-white);
+    padding: 14px 20px;
+    border-radius: 8px;
+    transition: all 0.3s 0s ease-out;
+    outline: none;
+    
+    background: #050709;
+    border: 1px solid #22272c;
+}
+.send-msg{
+
+    background: linear-gradient(260deg, var(--theme-primary) 0%, var(--theme-secondary) 100%);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 40px;
+}
+.contactus a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+.contactus a:hover {
+    color: #8750f7;
+}
+.contact-icons {
+    margin: 20px;
+    border-radius: 40px;
+    padding: 10px 15px;
+    color: #fff;
+    background: linear-gradient(260deg, var(--theme-primary) 0%, var(--theme-secondary) 100%);
+    font-size: 20px;
+}
+.text-box p{
+    font-size: 16px;
+    margin-bottom: 0px;
+}

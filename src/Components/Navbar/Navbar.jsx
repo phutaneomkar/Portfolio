@@ -1,13 +1,13 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../../assets/om.png';
+import logo from '../../assets/logo.svg';
 
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg pt-4 pb-4">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img className="logo" src={logo} alt="Logo" />
+          <img className="navlogo" src={logo} alt="Logo" />
         </a>
 
         {/* Bootstrap toggle button for offcanvas menu */}
@@ -43,24 +43,22 @@ export const Navbar = () => {
           <div className="offcanvas-body align-items-center">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="../#banner">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="../#mywork">My Work</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Services</a>
+                <a className="nav-link" href="./#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Portfolio</a>
+                <a className="nav-link" href="./#skills">Skills</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
-              </li>
+              
             </ul>
 
             <div className="d-flex">
-              <a href="#" className="btnc w-100" id='connect-btn'>Connect with me</a>
+              <a href="./#contact" className="btnc w-100" id='connect-btn'>Contact Us</a>
             </div>
           </div>
         </div>

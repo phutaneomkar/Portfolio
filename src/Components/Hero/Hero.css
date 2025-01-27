@@ -1,6 +1,6 @@
 
 .hero{
-    padding: 100px 20px 50px;
+    padding: 110px 20px 50px;
 }
 
 .hero-sub{
@@ -49,6 +49,11 @@
     color: #fff; 
     background: #8750f7;
    
+}
+.banner{
+    border: 13px solid #9647fe;
+    border-radius: 20px;
+    max-width: 100%;
 }
 
 @media screen and (max-width:426px){

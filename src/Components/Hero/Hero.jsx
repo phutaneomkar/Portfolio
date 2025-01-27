@@ -1,10 +1,10 @@
 import React from 'react';
 import './Hero.css';
-import profile_img from '../../assets/profile.png';
+import profile_img from '../../assets/banner.png';
 
 export const Hero = () => {
   return (
-    <div className="container hero">
+    <div className="container hero" id='banner'>
       <div className="row align-items-center">
         <div className="col-md-6">
           <h1 className="hero-title">
@@ -29,7 +29,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="col-md-6 text-center p-4">
-          <img src={profile_img} alt="Profile" />
+          <img src={profile_img} alt="Profile" className='banner' />
         </div>
       </div>
     </div>
